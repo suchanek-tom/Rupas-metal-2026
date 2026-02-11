@@ -1,9 +1,18 @@
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
+import { NotFound } from "./pages/NotFound";
+import { Footer } from "./components/shared/Footer";
 
-//TODO: Add routing and other pages (e.g. about, contact, etc.)
+
 function App() {
   return (
-   <Home />
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </HashRouter>
   );
 }
 
