@@ -4,7 +4,7 @@ import { NotFound } from "./pages/NotFound";
 import { Navbar } from "./components/shared/Navbar";
 import { Footer } from "./components/shared/Footer";
 import { ScrollToTop } from "./components/shared/ScrollToTop";
-
+import { Certifications } from "./pages/Certifications";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/certifications" element={<Certifications />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
