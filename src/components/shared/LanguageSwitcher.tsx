@@ -1,20 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-
-interface LanguageOption {
-  code: string;
-  label: string;
-}
-
-const languages: LanguageOption[] = [
-  { code: "cs", label: "Čeština" },
-  { code: "en", label: "English" },
-  { code: "de", label: "Deutsch" },
-];
-
-interface LanguageSwitcherProps {
-  onLanguageChange?: () => void;
-}
+import { languages } from "../../constants/languages";
+import type { LanguageSwitcherProps } from "../../types/languageOptionTypes";
 
 export const LanguageSwitcher = ({ onLanguageChange }: LanguageSwitcherProps) => {
   const { i18n } = useTranslation();
