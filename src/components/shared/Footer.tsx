@@ -64,7 +64,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="hidden md:block md:col-span-3 lg:absolute lg:top-12 lg:right-6">
+          <div className="hidden md:block md:col-span-3">
             <div className="flex items-center justify-end">
               <div className="text-right">
                 <div className="text-2xl font-bold">
