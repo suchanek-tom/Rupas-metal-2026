@@ -9,5 +9,5 @@ export const navLinks: NavLink[] = [
   { to: "/kariera", label: "Kariéra" },
   { to: "/galerie", label: "Galerie" },
   { to: "/produkty", label: "Vlastní produkty" },
-  { to: "/kontakt", label: "Kontakt" },
+  { to: "/contact", label: "Kontakt" },
 ];

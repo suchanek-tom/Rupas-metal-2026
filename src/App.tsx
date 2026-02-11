@@ -5,6 +5,7 @@ import { Navbar } from "./components/shared/Navbar";
 import { Footer } from "./components/shared/Footer";
 import { ScrollToTop } from "./components/shared/ScrollToTop";
 import { Certifications } from "./pages/Certifications";
+import { Contact } from "./pages/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/certifications" element={<Certifications />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
