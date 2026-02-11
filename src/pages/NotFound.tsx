@@ -22,7 +22,7 @@ export const NotFound = () => {
             Tato stránka není ve sváru
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-lg mx-auto">
-            Spojení se nezdařilo. Tato stránka neexistuje nebo byla přesunuta.
+            Spojení se nezdařilo. <br /> Tato stránka neexistuje nebo byla přesunuta.
           </p>
         </div>
 
