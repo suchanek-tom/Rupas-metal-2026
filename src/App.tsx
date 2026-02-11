@@ -3,6 +3,7 @@ import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Navbar } from "./components/shared/Navbar";
 import { Footer } from "./components/shared/Footer";
+import { ScrollToTop } from "./components/shared/ScrollToTop";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
+      <ScrollToTop />
     </HashRouter>
   );
 }
