@@ -1,4 +1,4 @@
-import { Mail, MapPin, Receipt } from "lucide-react";
+import { Landmark, Mail, MapPin, Receipt } from "lucide-react";
 import { Card, CardContent } from "../components/ui/card";
 import { TeamSection } from "../components/sections/TeamSection";
 
@@ -65,6 +65,20 @@ export const Contact = () => {
                       >
                         faktury@rupas-metal.cz
                       </a>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="flex items-start gap-4">
+                    <div className="bg-brand/10 p-3 rounded-lg">
+                      <Landmark className="w-6 h-6 text-brand" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-gray-800 mb-1">Datová schránka</h3>
+                        <p className="text-gray-600">
+                          qr5wiud
+                        </p>
                     </div>
                   </CardContent>
                 </Card>
