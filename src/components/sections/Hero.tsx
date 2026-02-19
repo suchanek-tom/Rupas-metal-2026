@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
 
 export const Hero = () => {
+  const { t } = useTranslation();
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -19,13 +21,13 @@ export const Hero = () => {
 
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Specialisté na strojirenskou technologii, svařování kovů a slitin
+              {t("hero.title")}
             </h1>
           </div>
 
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-white/90 leading-relaxed">
-                Naše dodávky se nikdy nezpozdují. Váš požadovaný termín je pro nás nejvyšší priorita. V případě potřeby pro nás pracovní doba neplatí a jsme schopni pro splnění vašich požadavků udělat nemožné.
+              {t("hero.subtitle")}
             </p>
             <Button 
               asChild 
@@ -33,7 +35,7 @@ export const Hero = () => {
               className="bg-brand hover:bg-brand-dark font-semibold text-lg"
             >
               <Link to="/about">
-                O firmě
+                {t("hero.cta")}
               </Link>
             </Button>
           </div>

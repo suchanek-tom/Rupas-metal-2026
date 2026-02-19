@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { Instagram } from "lucide-react";
 
 // todo: přidat logo do patičky, případně i do hlavičky
 
 export const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className="">
       <div className="container mx-auto px-6 py-12 lg:py-16">
@@ -12,7 +14,7 @@ export const Footer = () => {
               RUPAS METAL s.r.o.
             </h3>
             <div className="space-y-2 text-sm">
-              <h4 className="text-brand font-medium">Kde nás najdete</h4>
+              <h4 className="text-brand font-medium">{t("footer.whereToFind")}</h4>
               <p>Masarykova 702</p>
               <p>742 45 – Fulnek</p>
               <p>IČ: 21046204</p>
@@ -22,7 +24,7 @@ export const Footer = () => {
 
           <div className="space-y-4">
             <h3 className="text-brand font-semibold text-lg mb-4">
-              Kontaktujte nás
+              {t("footer.contactUs")}
             </h3>
             <div className="space-y-2 text-sm">
               <a
@@ -37,7 +39,7 @@ export const Footer = () => {
 
           <div className="space-y-4">
             <h3 className="text-brand font-semibold text-lg mb-4">
-              Sledujte nás
+              {t("footer.followUs")}
             </h3>
             <div className="space-y-3 text-sm">
                 <a
@@ -67,7 +69,7 @@ export const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-metal-900 text-sm text-[#707070]">
           <p>
-            RUPAS METAL © {new Date().getFullYear()} všechna práva vyhrazena. Web vytvořil Tomáš Suchanek.
+            RUPAS METAL © {new Date().getFullYear()} {t("footer.rights")}. {t("footer.madeBy")}.
           </p>
         </div>
       </div>

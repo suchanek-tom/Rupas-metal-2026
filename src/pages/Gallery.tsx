@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -15,6 +16,7 @@ const slides = galleryImages.map((img) => ({
 }));
 
 export const Gallery = () => {
+  const { t } = useTranslation();
   const [lightboxIndex, setLightboxIndex] = useState<number>(-1);
 
   return (
@@ -32,7 +34,7 @@ export const Gallery = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
           >
-            Galerie
+            {t("gallery.title")}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 24 }}
@@ -40,7 +42,7 @@ export const Gallery = () => {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-4 text-lg md:text-xl text-white/80 max-w-2xl mx-auto"
           >
-            Ukázky naší práce a výrobního prostředí.
+            {t("gallery.subtitle")}
           </motion.p>
         </div>
       </section>

@@ -11,7 +11,7 @@ import {
 } from "../../ui/dropdown-menu";
 
 export const DesktopNav = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const handleLanguageChange = (langCode: string) => {
     i18n.changeLanguage(langCode);
@@ -26,7 +26,7 @@ export const DesktopNav = () => {
               to={link.to}
               className="text-sm text-black hover:text-brand transition-colors font-medium"
             >
-              {link.label}
+              {t(link.i18nKey)}
             </Link>
           </li>
         ))}

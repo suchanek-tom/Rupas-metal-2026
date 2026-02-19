@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { navLinks } from "../../../constants/navigation";
 
@@ -11,6 +12,7 @@ interface MobileNavProps {
 }
 
 export const MobileNav = ({ isMenuOpen, onToggleMenu, onCloseMenu }: MobileNavProps) => {
+  const { t } = useTranslation();
   return (
     <>
       <button
@@ -69,7 +71,7 @@ export const MobileNav = ({ isMenuOpen, onToggleMenu, onCloseMenu }: MobileNavPr
                           onClick={onCloseMenu}
                           className="block py-3 text-lg text-black hover:text-brand transition-colors font-medium"
                         >
-                          {link.label}
+                          {t(link.i18nKey)}
                         </Link>
                       </motion.li>
                     ))}

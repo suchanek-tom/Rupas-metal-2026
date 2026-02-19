@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { countries } from "@/constants/countries";
 import { productions } from "@/constants/productions";
 import { motion } from "framer-motion";
@@ -12,6 +13,7 @@ const fadeUp = {
 };
 
 export const References = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white">
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
@@ -27,7 +29,7 @@ export const References = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
           >
-            Reference
+            {t("references.title")}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 24 }}
@@ -35,7 +37,7 @@ export const References = () => {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-4 text-lg md:text-xl text-white/80 max-w-2xl mx-auto"
           >
-            Co umíme vyrobit a kam naše výrobky putují.
+            {t("references.subtitle")}
           </motion.p>
         </div>
       </section>
@@ -48,13 +50,13 @@ export const References = () => {
           transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
         >
-          Co dodáváme:
+          {t("references.whatWeDeliver")}
         </motion.h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {productions.map(({ icon: Icon, label }, i) => (
+          {productions.map(({ icon: Icon, labelKey }, i) => (
             <motion.div
-              key={label}
+              key={labelKey}
               custom={i}
               initial="hidden"
               whileInView="visible"
@@ -65,7 +67,7 @@ export const References = () => {
               <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-brand/10 text-brand group-hover:bg-brand group-hover:text-white transition-colors duration-300">
                 <Icon className="w-6 h-6" />
               </div>
-              <p className="text-sm font-medium text-gray-700 leading-snug">{label}</p>
+              <p className="text-sm font-medium text-gray-700 leading-snug">{t(labelKey)}</p>
             </motion.div>
           ))}
         </div>
@@ -80,13 +82,13 @@ export const References = () => {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
           >
-            Do jakých zemí dodáváme?
+          {t("references.countriesTitle")}
           </motion.h2>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
-            {countries.map(({ flag, name }, i) => (
+            {countries.map(({ flag, nameKey }, i) => (
               <motion.div
-                key={name}
+                key={nameKey}
                 custom={i}
                 initial="hidden"
                 whileInView="visible"
@@ -95,7 +97,7 @@ export const References = () => {
                 className="flex flex-col items-center gap-3 p-5 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-brand transition-all duration-300"
               >
                 <span className="text-5xl leading-none">{flag}</span>
-                <span className="text-xs font-medium text-gray-600 text-center">{name}</span>
+                <span className="text-xs font-medium text-gray-600 text-center">{t(nameKey)}</span>
               </motion.div>
             ))}
           </div>

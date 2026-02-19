@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "about": "About Us",
+    "production": "Production",
+    "equipment": "Our Equipment",
+    "certifications": "Certifications",
+    "gallery": "Gallery",
+    "references": "References",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Specialists in machining technology, metal and alloy welding",
+    "subtitle": "Our deliveries are never late. Your requested deadline is our highest priority. If needed, working hours are no barrier – we are capable of doing the impossible to meet your requirements.",
+    "cta": "About Us"
+  },
+  "production": {
+    "title": "Engineering Production",
+    "subtitle": "Our company is engaged in comprehensive engineering production from A to Z.",
+    "servicesHeading": "Our Services",
+    "engineering": {
+      "title": "Engineering Services",
+      "description": "Preparation of production documentation, static calculations, production optimisation, improvement proposals and effective management of the production process."
+    }
+  },
+  "services": {
+    "machines": { "title": "Manufacture of Machine Units", "description": "Production of machine units and equipment" },
+    "series": { "title": "Single-piece and Series Production", "description": "Single-piece, small-batch and series production" },
+    "renovation": { "title": "Renovation of Spare Parts", "description": "Renovation of spare parts for heavy industry equipment" },
+    "complete": { "title": "Complete Production from A–Z", "description": "From raw material to assembly of machined parts and final assembly" },
+    "piping": { "title": "Piping Systems & Energy", "description": "Piping systems, energy sector" },
+    "welding": { "title": "Welding", "description": "MIG/MAG, TIG, Electrode" }
+  },
+  "equipment": {
+    "title": "Technological Capabilities",
+    "subtitle": "Overview of our machinery and technological capacity.",
+    "intro": "We have the following machinery on our premises. In the event of capacity constraints or order size, together with our partner companies we are able to provide these services according to technological capabilities:",
+    "table": {
+      "category": "Category",
+      "machine": "Machine / Technology",
+      "spec": "Specification"
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "description": "Our company is built on quality and professionalism, as evidenced by the certifications we have earned. They are not only a confirmation of our expertise but also a commitment to continuous improvement and adherence to the highest standards. Thanks to them you can be sure that our products and services meet strict requirements for quality and precision."
+  },
+  "contact": {
+    "title": "Contact Information",
+    "subtitle": "Do you have a question or need a quote? We are happy to advise you on all your projects.",
+    "address": "Address",
+    "email": "E-mail",
+    "billing": "Billing",
+    "databox": "Data Box",
+    "team": "Our Team"
+  },
+  "references": {
+    "title": "References",
+    "subtitle": "What we can manufacture and where our products go.",
+    "whatWeDeliver": "What we deliver:",
+    "countriesTitle": "Which countries do we deliver to?"
+  },
+  "productions": {
+    "structures": "Manufacture of load-bearing structures",
+    "agricultural": "Manufacture of agricultural machinery",
+    "energy": "Manufacture of energy components – heat exchangers, tube sheets, piping",
+    "parts": "Manufacture of machine parts",
+    "gearboxes": "Manufacture of gearboxes",
+    "buckets": "Manufacture of tipping buckets, blades, hardox crushers and hoppers",
+    "assembly": "Manufacture and assembly of technological units",
+    "disassembly": "Assembly and disassembly of parts"
+  },
+  "countries": {
+    "cz": "Czech Republic",
+    "de": "Germany",
+    "at": "Austria",
+    "gb": "United Kingdom",
+    "fi": "Finland",
+    "be": "Belgium",
+    "nl": "Netherlands",
+    "lu": "Luxembourg"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Samples of our work and production environment.",
+    "empty": "Photos coming soon."
+  },
+  "footer": {
+    "whereToFind": "Where to find us",
+    "contactUs": "Contact us",
+    "followUs": "Follow us",
+    "rights": "all rights reserved",
+    "madeBy": "Website created by Tomáš Suchanek"
+  },
+  "notFound": {
+    "title": "This page is not in the weld",
+    "subtitle": "Connection failed. This page does not exist or has been moved.",
+    "back": "Back to home page"
+  },
+  "employees": {
+    "positions": {
+      "director": "Managing Director",
+      "administration": "Administration",
+      "productionManager": "Production Manager"
+    }
+  }
+}

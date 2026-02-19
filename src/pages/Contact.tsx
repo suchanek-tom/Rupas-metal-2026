@@ -1,15 +1,17 @@
+import { useTranslation } from "react-i18next";
 import { Landmark, Mail, MapPin, Receipt } from "lucide-react";
 import { Card, CardContent } from "../components/ui/card";
 import { TeamSection } from "../components/sections/TeamSection";
 
 export const Contact = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-gray-50">
       <section className="bg-brand text-white py-16">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-semibold mb-4">Kontaktní údaje</h2>
+          <h2 className="text-4xl md:text-5xl font-semibold mb-4">{t("contact.title")}</h2>
           <p className="text-xl text-white/90 font-light">
-            Máte dotaz nebo potřebujete cenovou nabídku? <br /> Rádi vám poradíme se všemi vašimi projekty.
+            {t("contact.subtitle")}
           </p>
         </div>
       </section>
@@ -26,7 +28,7 @@ export const Contact = () => {
                       <MapPin className="w-6 h-6 text-brand" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-800 mb-1">Adresa</h3>
+                      <h3 className="font-semibold text-gray-800 mb-1">{t("contact.address")}</h3>
                       <p className="text-gray-600">
                         Masarykova 702<br />
                         742 45 Fulnek 1
@@ -41,7 +43,7 @@ export const Contact = () => {
                       <Mail className="w-6 h-6 text-brand" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-800 mb-1">E-mail</h3>
+                      <h3 className="font-semibold text-gray-800 mb-1">{t("contact.email")}</h3>
                       <a 
                         href="mailto:info@rupas-metal.cz" 
                         className="text-gray-600 hover:text-brand transition-colors"
@@ -58,7 +60,7 @@ export const Contact = () => {
                       <Receipt className="w-6 h-6 text-brand" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-800 mb-1">Fakturace</h3>
+                      <h3 className="font-semibold text-gray-800 mb-1">{t("contact.billing")}</h3>
                       <a 
                         href="mailto:faktury@rupas-metal.cz" 
                         className="text-gray-600 hover:text-brand transition-colors"
@@ -75,7 +77,7 @@ export const Contact = () => {
                       <Landmark className="w-6 h-6 text-brand" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-800 mb-1">Datová schránka</h3>
+                      <h3 className="font-semibold text-gray-800 mb-1">{t("contact.databox")}</h3>
                         <p className="text-gray-600">
                           qr5wiud
                         </p>

@@ -1,12 +1,12 @@
 import type { NavLink } from "../types/navigationTypes";
 
 export const navLinks: NavLink[] = [
-  { to: "/", label: "O firmě" },
-  { to: "/production", label: "Výroba" },
-  { to: "/equipment", label: "Naše vybavení" },
-  { to: "/certifications", label: "Certifikace" },
-  // { to: "/kariera", label: "Kariéra" },
-  { to: "/galerie", label: "Galerie" },
-  { to: "/reference", label: "Reference" },
-  { to: "/contact", label: "Kontakt" },
+  { to: "/",               label: "O firmě",         i18nKey: "nav.about" },
+  { to: "/production",     label: "Výroba",           i18nKey: "nav.production" },
+  { to: "/equipment",      label: "Naše vybavení",   i18nKey: "nav.equipment" },
+  { to: "/certifications", label: "Certifikace",      i18nKey: "nav.certifications" },
+  // { to: "/kariera", label: "Kariéra", i18nKey: "nav.career" },
+  { to: "/galerie",        label: "Galerie",           i18nKey: "nav.gallery" },
+  { to: "/reference",      label: "Reference",         i18nKey: "nav.references" },
+  { to: "/contact",        label: "Kontakt",           i18nKey: "nav.contact" },
 ];

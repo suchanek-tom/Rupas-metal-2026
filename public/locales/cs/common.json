@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "about": "O firmě",
+    "production": "Výroba",
+    "equipment": "Naše vybavení",
+    "certifications": "Certifikace",
+    "gallery": "Galerie",
+    "references": "Reference",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Specialisté na strojírenskou technologii, svařování kovů a slitin",
+    "subtitle": "Naše dodávky se nikdy nezpozdují. Váš požadovaný termín je pro nás nejvyšší priorita. V případě potřeby pro nás pracovní doba neplatí a jsme schopni pro splnění vašich požadavků udělat nemožné.",
+    "cta": "O firmě"
+  },
+  "production": {
+    "title": "Strojírenská výroba",
+    "subtitle": "Naše společnost se zabývá komplexní strojírenskou výrobou od A do Z.",
+    "servicesHeading": "Naše služby",
+    "engineering": {
+      "title": "Konstrukční služby",
+      "description": "Zhotovení výrobní dokumentace, statické výpočty, optimalizace výroby, návrhy pro zlepšení a efektivní řízení výrobního procesu."
+    }
+  },
+  "services": {
+    "machines": { "title": "Výroba strojních celků", "description": "Výrobou strojních celků a zařízení" },
+    "series": { "title": "Kusová a sériová výroba", "description": "Kusovou, malosériovou i sériovou výrobou" },
+    "renovation": { "title": "Renovace náhradních dílů", "description": "Renovací náhradních dílů pro zařízení těžkého průmyslu" },
+    "complete": { "title": "Kompletní výroba od A–Z", "description": "Od vstupního materiálu až po kompletaci dílů po obrábění a finální montáž" },
+    "piping": { "title": "Potrubní systémy & energetika", "description": "Potrubní systémy, energetika" },
+    "welding": { "title": "Svařování", "description": "MIG/MAG, TIG, Elektroda" }
+  },
+  "equipment": {
+    "title": "Technologické možnosti",
+    "subtitle": "Přehled strojního vybavení a technologických kapacit naší společnosti.",
+    "intro": "V našich prostorech disponujeme tímto strojním vybavením. V případě kapacitní vytíženosti či velikosti zakázky jsme spolu se svými partnerskými firmami schopni zajistit tyto služby dle technologických možností:",
+    "table": {
+      "category": "Kategorie",
+      "machine": "Stroj / Technologie",
+      "spec": "Specifikace"
+    }
+  },
+  "certifications": {
+    "title": "Certifikace",
+    "description": "Naše firma si zakládá na kvalitě a profesionalitě, což dokládají i získané certifikáty. Jsou pro nás nejen potvrzením odbornosti, ale také závazkem k neustálému zlepšování a dodržování nejvyšších standardů. Díky nim můžete mít jistotu, že naše výrobky i služby splňují přísné požadavky na kvalitu a preciznost."
+  },
+  "contact": {
+    "title": "Kontaktní údaje",
+    "subtitle": "Máte dotaz nebo potřebujete cenovou nabídku? Rádi vám poradíme se všemi vašimi projekty.",
+    "address": "Adresa",
+    "email": "E-mail",
+    "billing": "Fakturace",
+    "databox": "Datová schránka",
+    "team": "Náš tým"
+  },
+  "references": {
+    "title": "Reference",
+    "subtitle": "Co umíme vyrobit a kam naše výrobky putují.",
+    "whatWeDeliver": "Co dodáváme:",
+    "countriesTitle": "Do jakých zemí dodáváme?"
+  },
+  "productions": {
+    "structures": "Výroba nosných konstrukcí",
+    "agricultural": "Výroba zemědělských strojů",
+    "energy": "Výroba energetických částí – výměníky, trubkovnice, potrubí",
+    "parts": "Výroba strojních součástí",
+    "gearboxes": "Výroba převodových skříní",
+    "buckets": "Výroba výklopných lžic, lopat, hardoxových drtičů a násypek",
+    "assembly": "Výroba a montáž technologických celků",
+    "disassembly": "Montáž a demontáž dílů"
+  },
+  "countries": {
+    "cz": "Česká republika",
+    "de": "Německo",
+    "at": "Rakousko",
+    "gb": "Velká Británie",
+    "fi": "Finsko",
+    "be": "Belgie",
+    "nl": "Nizozemsko",
+    "lu": "Lucembursko"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Ukázky naší práce a výrobního prostředí.",
+    "empty": "Fotky brzy přibydou."
+  },
+  "footer": {
+    "whereToFind": "Kde nás najdete",
+    "contactUs": "Kontaktujte nás",
+    "followUs": "Sledujte nás",
+    "rights": "všechna práva vyhrazena",
+    "madeBy": "Web vytvořil Tomáš Suchanek"
+  },
+  "notFound": {
+    "title": "Tato stránka není ve sváru",
+    "subtitle": "Spojení se nezdařilo. Tato stránka neexistuje nebo byla přesunuta.",
+    "back": "Zpět na hlavní stránku"
+  },
+  "employees": {
+    "positions": {
+      "director": "Jednatel společnosti",
+      "administration": "Administrativa",
+      "productionManager": "Ředitel výroby"
+    }
+  }
+}

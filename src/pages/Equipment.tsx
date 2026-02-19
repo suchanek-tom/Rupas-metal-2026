@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { equipmentData } from "@/constants/equipment";
 
 const fadeUp = {
@@ -11,6 +12,7 @@ const fadeUp = {
 };
 
 export const Equipment = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white">
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
@@ -26,7 +28,7 @@ export const Equipment = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
           >
-            Technologické možnosti
+            {t("equipment.title")}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 24 }}
@@ -34,7 +36,7 @@ export const Equipment = () => {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-4 text-lg md:text-xl text-white/80 max-w-2xl mx-auto"
           >
-            Přehled strojního vybavení a technologických kapacit naší společnosti.
+            {t("equipment.subtitle")}
           </motion.p>
         </div>
       </section>
@@ -47,9 +49,7 @@ export const Equipment = () => {
           transition={{ duration: 0.5 }}
           className="text-gray-600 text-base md:text-lg leading-relaxed max-w-3xl mx-auto text-center"
         >
-          V našich prostorech disponujeme tímto strojním vybavením. V případě kapacitní vytíženosti
-          či velikosti zakázky jsme spolu se svými partnerskými firmami schopni zajistit tyto služby
-          dle technologických možností:
+          {t("equipment.intro")}
         </motion.p>
       </section>
 
@@ -64,9 +64,9 @@ export const Equipment = () => {
           <table className="w-full text-sm md:text-base text-left border-collapse">
             <thead>
               <tr className="bg-brand text-white">
-                <th className="px-6 py-4 font-semibold w-1/3">Kategorie</th>
-                <th className="px-6 py-4 font-semibold w-1/3">Stroj / Technologie</th>
-                <th className="px-6 py-4 font-semibold w-1/3">Specifikace</th>
+                <th className="px-6 py-4 font-semibold w-1/3">{t("equipment.table.category")}</th>
+                <th className="px-6 py-4 font-semibold w-1/3">{t("equipment.table.machine")}</th>
+                <th className="px-6 py-4 font-semibold w-1/3">{t("equipment.table.spec")}</th>
               </tr>
             </thead>
             <tbody>

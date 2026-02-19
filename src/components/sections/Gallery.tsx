@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { galleryImages } from "@/constants/gallery";
 
 const fadeUp = {
@@ -15,9 +16,10 @@ type Props = {
 };
 
 export const GalleryGrid = ({ onImageClick }: Props) => {
+  const { t } = useTranslation();
   if (galleryImages.length === 0) {
     return (
-      <p className="text-center text-gray-400 text-lg">Fotky brzy přibydou.</p>
+      <p className="text-center text-gray-400 text-lg">{t("gallery.empty")}</p>
     );
   }
 

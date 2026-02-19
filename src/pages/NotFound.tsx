@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { Button } from "../components/ui/button";
 import { Wrench, Home } from "lucide-react";
 
 export const NotFound = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen flex items-center justify-center from-gray-50 to-gray-100 px-6">
       <div className="max-w-2xl w-full text-center">
@@ -19,10 +21,10 @@ export const NotFound = () => {
 
         <div className="space-y-4 mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-            Tato stránka není ve sváru
+            {t("notFound.title")}
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-lg mx-auto">
-            Spojení se nezdařilo. <br /> Tato stránka neexistuje nebo byla přesunuta.
+            {t("notFound.subtitle")}
           </p>
         </div>
 
@@ -34,7 +36,7 @@ export const NotFound = () => {
           >
             <Link to="/" className="flex items-center gap-2">
               <Home className="w-5 h-5" />
-              Zpět na hlavní stránku
+              {t("notFound.back")}
             </Link>
           </Button>
         </div>

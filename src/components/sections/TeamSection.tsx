@@ -1,11 +1,13 @@
+import { useTranslation } from "react-i18next";
 import { Mail, Phone } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
 import { employees } from "../../constants/employees";
 
 export const TeamSection = () => {
+  const { t } = useTranslation();
   return (
     <div className="mt-16">
-      <h2 className="text-3xl font-bold text-gray-800 mb-8">Náš tým</h2>
+      <h2 className="text-3xl font-bold text-gray-800 mb-8">{t("contact.team")}</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {employees.map((employee) => (
           <Card key={employee.id}>
@@ -19,7 +21,7 @@ export const TeamSection = () => {
                 <h3 className="text-xl font-semibold text-gray-800 mb-1">
                   {employee.name}
                 </h3>
-                <p className="text-sm text-gray-500 mb-4">{employee.position}</p>
+                <p className="text-sm text-gray-500 mb-4">{t(employee.positionKey)}</p>
               </div>
               <div className="space-y-2 text-sm">
                 <a 

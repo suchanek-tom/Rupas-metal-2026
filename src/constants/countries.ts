@@ -1,10 +1,10 @@
 export const countries = [
-  { flag: "🇨🇿", name: "Česká republika" },
-  { flag: "🇩🇪", name: "Německo" },
-  { flag: "🇦🇹", name: "Rakousko" },
-  { flag: "🇬🇧", name: "Velká Británie" },
-  { flag: "🇫🇮", name: "Finsko" },
-  { flag: "🇧🇪", name: "Belgie" },
-  { flag: "🇳🇱", name: "Nizozemsko" },
-  { flag: "🇱🇺", name: "Lucembursko" },
+  { flag: "🇨🇿", nameKey: "countries.cz", name: "Česká republika" },
+  { flag: "🇩🇪", nameKey: "countries.de", name: "Německo" },
+  { flag: "🇦🇹", nameKey: "countries.at", name: "Rakousko" },
+  { flag: "🇬🇧", nameKey: "countries.gb", name: "Velká Británie" },
+  { flag: "🇫🇮", nameKey: "countries.fi", name: "Finsko" },
+  { flag: "🇧🇪", nameKey: "countries.be", name: "Belgie" },
+  { flag: "🇳🇱", nameKey: "countries.nl", name: "Nizozemsko" },
+  { flag: "🇱🇺", nameKey: "countries.lu", name: "Lucembursko" },
 ];

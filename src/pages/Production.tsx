@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { FileText } from "lucide-react";
 import { services } from "@/constants/services";
 
@@ -12,6 +13,7 @@ const fadeUp = {
 };
 
 export const Production = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white">
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
@@ -27,7 +29,7 @@ export const Production = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
           >
-            Strojírenská výroba
+            {t("production.title")}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 24 }}
@@ -35,7 +37,7 @@ export const Production = () => {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-4 text-lg md:text-xl text-white/80 max-w-2xl mx-auto"
           >
-            Naše společnost se zabývá komplexní strojírenskou výrobou od A do Z.
+            {t("production.subtitle")}
           </motion.p>
         </div>
       </section>
@@ -48,7 +50,7 @@ export const Production = () => {
           transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
         >
-          Naše služby
+          {t("production.servicesHeading")}
         </motion.h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
@@ -68,10 +70,10 @@ export const Production = () => {
                   <Icon className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800">
-                  {service.title}
+                  {t(`services.${service.key}.title`)}
                 </h3>
                 <p className="text-sm text-gray-500 leading-relaxed">
-                  {service.description}
+                  {t(`services.${service.key}.description`)}
                 </p>
               </motion.div>
             );
@@ -93,11 +95,10 @@ export const Production = () => {
             </div>
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                Konstrukční služby
+                {t("production.engineering.title")}
               </h2>
               <p className="text-white/70 text-base md:text-lg leading-relaxed max-w-3xl">
-                Zhotovení výrobní dokumentace, statické výpočty, optimalizace výroby,
-                návrhy pro zlepšení a efektivní řízení výrobního procesu.
+                {t("production.engineering.description")}
               </p>
             </div>
           </motion.div>
