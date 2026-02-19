@@ -51,8 +51,7 @@ export const MobileNav = ({ isMenuOpen, onToggleMenu, onCloseMenu }: MobileNavPr
                     className="text-gray-600 hover:text-black transition-colors flex items-center gap-2"
                     aria-label="Close menu"
                   >
-                    <span className="text-sm">Close</span>
-                    <X className="w-6 h-6" />
+                    <X className="w-8 h-8" />
                   </button>
                 </div>
 
