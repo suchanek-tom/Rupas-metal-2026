@@ -8,6 +8,7 @@ import { Equipment } from "@/pages/Equipment";
 import { Certifications } from "@/pages/Certifications";
 import { Contact } from "@/pages/Contact";
 import { References } from "@/pages/References";
+import { Gallery } from "@/pages/Gallery";
 import { NotFound } from "@/pages/NotFound";
 
 export const AppRouter = () => {
@@ -22,6 +23,7 @@ export const AppRouter = () => {
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/reference" element={<References />} />
+          <Route path="/galerie" element={<Gallery />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
