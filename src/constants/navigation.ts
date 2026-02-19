@@ -5,9 +5,8 @@ export const navLinks: NavLink[] = [
   { to: "/production", label: "Výroba" },
   { to: "/equipment", label: "Naše vybavení" },
   { to: "/certifications", label: "Certifikace" },
-  { to: "/servis", label: "Servis" },
   { to: "/kariera", label: "Kariéra" },
   { to: "/galerie", label: "Galerie" },
-  { to: "/produkty", label: "Vlastní produkty" },
+  { to: "/reference", label: "Reference" },
   { to: "/contact", label: "Kontakt" },
 ];
