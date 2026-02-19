@@ -2,8 +2,8 @@ import type { NavLink } from "../types/navigationTypes";
 
 export const navLinks: NavLink[] = [
   { to: "/", label: "O firmě" },
-  { to: "/vyroba", label: "Výroba" },
-  { to: "/vybaveni", label: "Naše vybavení" },
+  { to: "/production", label: "Výroba" },
+  { to: "/equipment", label: "Naše vybavení" },
   { to: "/certifications", label: "Certifikace" },
   { to: "/servis", label: "Servis" },
   { to: "/kariera", label: "Kariéra" },
