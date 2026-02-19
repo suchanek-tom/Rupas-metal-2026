@@ -1,7 +1,5 @@
-import { Facebook, Linkedin } from "lucide-react";
+import { Instagram } from "lucide-react";
 
-// todo: doptat se na provozní řád,
-// todo: sociální sítě které firma používá
 // todo: přidat logo do patičky, případně i do hlavičky
 
 export const Footer = () => {
@@ -33,7 +31,6 @@ export const Footer = () => {
               >
                 info@rupas-metal.cz
               </a>
-              <p>Po – Pá 6:00 – 14:00</p>
             </div>
           </div>
 
@@ -43,24 +40,15 @@ export const Footer = () => {
               Sledujte nás
             </h3>
             <div className="space-y-3 text-sm">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-brand-dark transition-colors"
-              >
-                <Facebook className="w-5 h-5" />
-                <span>Facebook</span>
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-brand-dark transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-                <span>LinkedIn</span>
-              </a>
+                <a
+                  href="https://www.instagram.com/rupas_metal/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:text-brand-dark transition-colors"
+                >
+                  <Instagram className="w-5 h-5" />
+                  <span>Instagram</span>
+                </a>
             </div>
           </div>
 
