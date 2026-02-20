@@ -24,7 +24,7 @@ export const Equipment = () => {
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/src/assets/images/img11.jpg')" }}
+          style={{ backgroundImage: "url('/images/img11.jpg')" }}
         />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 container mx-auto px-6 text-center py-20">
