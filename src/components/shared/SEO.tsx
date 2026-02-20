@@ -1,5 +1,5 @@
+import { useEffect } from "react";
 import type { SEOProps } from "@/types/SEOTypes";
-import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 const SITE_NAME = "RUPAS METAL s.r.o.";
@@ -10,8 +10,12 @@ export const SEO = ({ title, description, canonical }: SEOProps) => {
   const fullTitle = `${title} | ${SITE_NAME}`;
   const canonicalUrl = canonical ? `${BASE_URL}${canonical}` : BASE_URL;
 
+  useEffect(() => {
+    document.documentElement.lang = i18n.language;
+  }, [i18n.language]);
+
   return (
-    <Helmet htmlAttributes={{ lang: i18n.language }}>
+    <>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />
@@ -25,6 +29,6 @@ export const SEO = ({ title, description, canonical }: SEOProps) => {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-    </Helmet>
+    </>
   );
 };
