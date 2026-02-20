@@ -7,13 +7,13 @@ export const certificates: Certificate[] = [
     versions: [
       {
         lang: "CZ",
-        thumbnail: "/src/assets/certificates/RUPAS_CERT_9001_2025_CZ.jpg",
-        pdf: "/src/assets/certificates/RUPAS_CERT_9001_2025.pdf",
+        thumbnail: "/certificates/RUPAS_CERT_9001_2025_CZ.jpg",
+        pdf: "/certificates/RUPAS_CERT_9001_2025.pdf",
       },
       {
         lang: "EN",
-        thumbnail: "/src/assets/certificates/RUPAS_CERT_9001_2025_EN.jpg",
-        pdf: "/src/assets/certificates/RUPAS_CERT_9001_2025.pdf",
+        thumbnail: "/certificates/RUPAS_CERT_9001_2025_EN.jpg",
+        pdf: "/certificates/RUPAS_CERT_9001_2025.pdf",
       },
     ],
   },
@@ -23,13 +23,13 @@ export const certificates: Certificate[] = [
     versions: [
       {
         lang: "CZ",
-        thumbnail: "/src/assets/certificates/RUPAS_CERT_3834_2025_CZ_1.jpg",
-        pdf: "/src/assets/certificates/RUPAS_CERT_3834_2025.pdf",
+        thumbnail: "/certificates/RUPAS_CERT_3834_2025_CZ_1.jpg",
+        pdf: "/certificates/RUPAS_CERT_3834_2025.pdf",
       },
       {
         lang: "EN",
-        thumbnail: "/src/assets/certificates/RUPAS_CERT_3834_2025_EN_1.jpg",
-        pdf: "/src/assets/certificates/RUPAS_CERT_3834_2025.pdf",
+        thumbnail: "/certificates/RUPAS_CERT_3834_2025_EN_1.jpg",
+        pdf: "/certificates/RUPAS_CERT_3834_2025.pdf",
       },
     ],
   },
@@ -39,13 +39,13 @@ export const certificates: Certificate[] = [
     versions: [
       {
         lang: "CZ",
-        thumbnail: "/src/assets/certificates/RUPAS_CERT_3834_2025_CZ_2.jpg",
-        pdf: "/src/assets/certificates/RUPAS_CERT_3834_2025.pdf",
+        thumbnail: "/certificates/RUPAS_CERT_3834_2025_CZ_2.jpg",
+        pdf: "/certificates/RUPAS_CERT_3834_2025.pdf",
       },
       {
         lang: "EN",
-        thumbnail: "/src/assets/certificates/RUPAS_CERT_3834_2025_EN_2.jpg",
-        pdf: "/src/assets/certificates/RUPAS_CERT_3834_2025.pdf",
+        thumbnail: "/certificates/RUPAS_CERT_3834_2025_EN_2.jpg",
+        pdf: "/certificates/RUPAS_CERT_3834_2025.pdf",
       },
     ],
   },
