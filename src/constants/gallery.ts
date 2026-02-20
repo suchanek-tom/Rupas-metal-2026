@@ -22,7 +22,6 @@ export const galleryImages: GalleryImage[] = [
   { src: "/images/montaz_4.jpg",  alt: "Montáž v terénu",                 caption: "Montáž v terénu" },
   { src: "/images/montaz_5.jpg",  alt: "Instalace technologie",            caption: "Instalace technologie" },
   { src: "/images/montaz_6.jpg",  alt: "Finální montáž",                  caption: "Finální montáž" },
-  { src: "/images/montaz_7.jpg",  alt: "Přeprava a montáž",               caption: "Přeprava a montáž" },
   { src: "/images/new_img_1.jpg", alt: "Výroba lopat a lžic",             caption: "Výroba lopat a lžic" },
   { src: "/images/new_img_2.jpg", alt: "Hardoxové drtiče a násypky",      caption: "Hardoxové drtiče a násypky" },
   { src: "/images/new_img_3.jpg", alt: "Výroba výklopných lžic",          caption: "Výroba výklopných lžic" },

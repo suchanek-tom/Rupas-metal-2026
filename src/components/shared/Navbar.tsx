@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logoRupasMetal from "@/assets/images/logo_rupas_metal.jpg";
 import { DesktopNav } from "./navbar/DesktopNav";
 import { MobileNav } from "./navbar/MobileNav";
 
@@ -12,15 +13,10 @@ export const Navbar = () => {
   return (
     <>
       <nav className="bg-white border-b border-gray-200">
-        <div className="container mx-auto px-6 py-4">
+        <div className="container mx-auto px-3 py-1">
           <div className="flex items-center justify-between">
-            {/* todo: přidat logo obrázku */}
-            <Link to="/" className="flex items-center gap-3">
-              <div className="text-2xl font-bold leading-tight">
-                <span className="text-black">RUPAS</span>
-                <br />
-                <span className="text-brand">METAL</span>
-              </div>
+            <Link to="/" className="flex items-center">
+              <img src={logoRupasMetal} alt="Rupas Metal logo" className="h-24 w-auto" />
             </Link>
 
             <DesktopNav />

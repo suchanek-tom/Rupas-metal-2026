@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Instagram } from "lucide-react";
-
-// todo: přidat logo do patičky, případně i do hlavičky
+import logoRupasMetal from "@/assets/images/logo_rupas_metal.jpg";
 
 export const Footer = () => {
   const { t } = useTranslation();
@@ -33,6 +32,10 @@ export const Footer = () => {
               >
                 info@rupas-metal.cz
               </a>
+              <div className="mt-2">
+                <h4 className="text-brand font-medium">{t("footer.openingHours")}</h4>
+                <p>7:00 – 17:00</p>
+              </div>
             </div>
           </div>
 
@@ -57,11 +60,7 @@ export const Footer = () => {
           <div className="hidden md:block md:col-span-3">
             <div className="flex items-center justify-end">
               <div className="text-right">
-                <div className="text-2xl font-bold">
-                  <span>RUPAS</span>
-                  <br />
-                  <span className="text-brand">METAL</span>
-                </div>
+                <img src={logoRupasMetal} alt="Rupas Metal logo" className="h-28 w-auto" />
               </div>
             </div>
           </div>

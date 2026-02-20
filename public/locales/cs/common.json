@@ -49,6 +49,7 @@
     "subtitle": "Máte dotaz nebo potřebujete cenovou nabídku? Rádi vám poradíme se všemi vašimi projekty.",
     "address": "Adresa",
     "email": "E-mail",
+    "openingHours": "Provozní doba",
     "billing": "Fakturace",
     "databox": "Datová schránka",
     "team": "Náš tým"
@@ -87,6 +88,7 @@
   "footer": {
     "whereToFind": "Kde nás najdete",
     "contactUs": "Kontaktujte nás",
+    "openingHours": "Provozní doba",
     "followUs": "Sledujte nás",
     "rights": "všechna práva vyhrazena",
     "madeBy": "Web vytvořil Tomáš Suchanek"

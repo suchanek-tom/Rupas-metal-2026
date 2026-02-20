@@ -49,6 +49,7 @@
     "subtitle": "Do you have a question or need a quote? We are happy to advise you on all your projects.",
     "address": "Address",
     "email": "E-mail",
+    "openingHours": "Opening hours",
     "billing": "Billing",
     "databox": "Data Box",
     "team": "Our Team"
@@ -86,6 +87,7 @@
   },
   "footer": {
     "whereToFind": "Where to find us",
+    "openingHours": "Opening hours",
     "contactUs": "Contact us",
     "followUs": "Follow us",
     "rights": "all rights reserved",
