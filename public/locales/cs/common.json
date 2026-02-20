@@ -85,6 +85,36 @@
     "subtitle": "Ukázky naší práce a výrobního prostředí.",
     "empty": "Fotky brzy přibydou."
   },
+  "seo": {
+    "home": {
+      "title": "Specialisté na strojírenskou technologii a svařování",
+      "description": "RUPAS METAL s.r.o. – odborníci na strojírenskou výrobu, svařování kovů a slitin. Komplexní výroba od A do Z, certifikovaná kvalita, dodávky do celé Evropy."
+    },
+    "production": {
+      "title": "Strojírenská výroba",
+      "description": "Komplexní strojírenská výroba od A do Z. Výroba strojních celků, nosných konstrukcí, renovace náhradních dílů a montáž technologických celků."
+    },
+    "equipment": {
+      "title": "Technologické možnosti",
+      "description": "Přehled strojního vybavení a technologických kapacit RUPAS METAL. CNC obrábění, svařování MIG/MAG, TIG a další technologie."
+    },
+    "certifications": {
+      "title": "Certifikace",
+      "description": "Certifikace a osvědčení kvality RUPAS METAL s.r.o. Naše výrobky a služby splňují přísné požadavky na kvalitu a preciznost."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Kontaktní údaje RUPAS METAL s.r.o. – adresa, e-mail, datová schránka. Rádi vám poradíme a připravíme cenovou nabídku."
+    },
+    "references": {
+      "title": "Reference",
+      "description": "Reference a realizace RUPAS METAL. Dodáváme do České republiky, Německa, Rakouska, Velké Británie a dalších zemí Evropy."
+    },
+    "gallery": {
+      "title": "Galerie",
+      "description": "Fotogalerie výrobků a výrobního prostředí RUPAS METAL s.r.o."
+    }
+  },
   "footer": {
     "whereToFind": "Kde nás najdete",
     "contactUs": "Kontaktujte nás",

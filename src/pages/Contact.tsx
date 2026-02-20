@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/shared/SEO";
 import { ContactCards } from "../components/sections/ContactCards";
 import { TeamSection } from "../components/sections/TeamSection";
 
@@ -6,6 +7,11 @@ export const Contact = () => {
   const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEO
+        title={t("seo.contact.title")}
+        description={t("seo.contact.description")}
+        canonical="/contact"
+      />
       <section className="bg-brand text-white py-16">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-semibold mb-4">{t("contact.title")}</h2>

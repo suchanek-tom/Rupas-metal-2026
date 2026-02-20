@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/shared/SEO";
 import { countries } from "@/constants/countries";
 import { productions } from "@/constants/productions";
 import { motion } from "framer-motion";
@@ -16,6 +17,11 @@ export const References = () => {
   const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title={t("seo.references.title")}
+        description={t("seo.references.description")}
+        canonical="/reference"
+      />
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/shared/SEO";
 import { FileText } from "lucide-react";
 import { services } from "@/constants/services";
 
@@ -16,6 +17,11 @@ export const Production = () => {
   const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title={t("seo.production.title")}
+        description={t("seo.production.description")}
+        canonical="/production"
+      />
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"

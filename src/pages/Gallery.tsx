@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/shared/SEO";
 import { motion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -21,6 +22,11 @@ export const Gallery = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title={t("seo.gallery.title")}
+        description={t("seo.gallery.description")}
+        canonical="/galerie"
+      />
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"

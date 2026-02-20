@@ -85,6 +85,36 @@
     "subtitle": "Samples of our work and production environment.",
     "empty": "Photos coming soon."
   },
+  "seo": {
+    "home": {
+      "title": "Specialists in machining technology and metal welding",
+      "description": "RUPAS METAL s.r.o. – experts in engineering production, metal and alloy welding. Comprehensive production from A to Z, certified quality, deliveries across Europe."
+    },
+    "production": {
+      "title": "Engineering Production",
+      "description": "Comprehensive engineering production from A to Z. Manufacture of machine units, load-bearing structures, renovation of spare parts and assembly of technological units."
+    },
+    "equipment": {
+      "title": "Technological Capabilities",
+      "description": "Overview of machinery and technological capacity of RUPAS METAL. CNC machining, MIG/MAG and TIG welding, and more."
+    },
+    "certifications": {
+      "title": "Certifications",
+      "description": "Quality certifications of RUPAS METAL s.r.o. Our products and services meet strict requirements for quality and precision."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contact details for RUPAS METAL s.r.o. – address, e-mail, data box. We are happy to advise you and prepare a quote."
+    },
+    "references": {
+      "title": "References",
+      "description": "References and projects by RUPAS METAL. We deliver to Czech Republic, Germany, Austria, the UK and other European countries."
+    },
+    "gallery": {
+      "title": "Gallery",
+      "description": "Photo gallery of products and production environment at RUPAS METAL s.r.o."
+    }
+  },
   "footer": {
     "whereToFind": "Where to find us",
     "openingHours": "Opening hours",

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/shared/SEO";
 import { equipmentData } from "@/constants/equipment";
 
 const fadeUp = {
@@ -15,6 +16,11 @@ export const Equipment = () => {
   const { t } = useTranslation();
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title={t("seo.equipment.title")}
+        description={t("seo.equipment.description")}
+        canonical="/equipment"
+      />
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
