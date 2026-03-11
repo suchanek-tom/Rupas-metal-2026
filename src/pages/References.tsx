@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/shared/SEO";
-import { countries } from "@/constants/countries";
 import { productions } from "@/constants/productions";
 import { motion } from "framer-motion";
 
@@ -88,25 +87,23 @@ export const References = () => {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
           >
-          {t("references.countriesTitle")}
+            {t("references.countriesTitle")}
           </motion.h2>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
-            {countries.map(({ flag, nameKey }, i) => (
-              <motion.div
-                key={nameKey}
-                custom={i}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeUp}
-                className="flex flex-col items-center gap-3 p-5 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-brand transition-all duration-300"
-              >
-                <span className="text-5xl leading-none">{flag}</span>
-                <span className="text-xs font-medium text-gray-600 text-center">{t(nameKey)}</span>
-              </motion.div>
-            ))}
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mx-auto w-full max-w-6xl overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-md"
+          >
+            <img
+              src="/images/europe-map.png"
+              alt="Map of Europe"
+              className="h-80 w-full object-contain bg-white p-4 sm:h-136 md:h-168"
+              loading="lazy"
+            />
+          </motion.div>
         </div>
       </section>
     </div>
