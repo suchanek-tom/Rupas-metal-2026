@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/shared/SEO";
-import { equipmentData } from "@/constants/equipment";
+import type { EquipmentRow } from "@/types/EquipmentTypes";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 32 },
@@ -14,6 +14,7 @@ const fadeUp = {
 
 export const Equipment = () => {
   const { t } = useTranslation();
+  const equipmentData = t("equipment.data", { returnObjects: true }) as EquipmentRow[];
   return (
     <div className="min-h-screen bg-white">
       <SEO

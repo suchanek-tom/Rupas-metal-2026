@@ -41,7 +41,21 @@
       "category": "Category",
       "machine": "Machine / Technology",
       "spec": "Specification"
-    }
+    },
+    "data": [
+      { "category": "Machine Tools", "name": "CNC LATHES", "spec": "Max D=2000 mm, L=5000 mm" },
+      { "category": "", "name": "CNC 3-AXIS MILLING MACHINES", "spec": "Max L=2000 mm" },
+      { "category": "", "name": "CNC 5-AXIS MACHINING CENTRE", "spec": "Max 1000 mm" },
+      { "category": "", "name": "CNC VERTICAL LATHE", "spec": "Max D=2500 mm" },
+      { "category": "", "name": "HORIZONTAL BORING MACHINE", "spec": "Max X=5000 mm, Y=3000 mm" },
+      { "category": "Welding", "name": "MIG / MAG", "spec": "" },
+      { "category": "", "name": "Electrode", "spec": "" },
+      { "category": "", "name": "TIG", "spec": "" },
+      { "category": "Hydraulic Press", "name": "", "spec": "30 tons" },
+      { "category": "Band Saw", "name": "", "spec": "Max D = 300 mm" },
+      { "category": "Material Handling", "name": "", "spec": "Max 5 tons" },
+      { "category": "Own Transport", "name": "", "spec": "Max 3.5 tons" }
+    ]
   },
   "certifications": {
     "title": "Certifications",
