@@ -1,9 +1,18 @@
 import { useTranslation } from "react-i18next";
-import { Clock, Landmark, Mail, MapPin, Receipt } from "lucide-react";
+import { Clock, Copy, Landmark, Mail, MapPin, Receipt } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
 
 export const ContactCards = () => {
   const { t } = useTranslation();
+  const databoxId = "qr5wiud";
+
+  const handleCopyDatabox = async () => {
+    try {
+      await navigator.clipboard.writeText(databoxId);
+    } catch {
+      return;
+    }
+  };
 
   return (
     <div className="space-y-6">
@@ -75,7 +84,16 @@ export const ContactCards = () => {
           </div>
           <div>
             <h3 className="font-semibold text-gray-800 mb-1">{t("contact.databox")}</h3>
-            <p className="text-gray-600">qr5wiud</p>
+            <button
+              type="button"
+              onClick={handleCopyDatabox}
+              className="inline-flex items-center gap-2 text-gray-600 hover:text-brand transition-colors cursor-pointer"
+              title="Copy databox ID"
+              aria-label="Copy databox ID"
+            >
+              <Copy className="w-4 h-4" aria-hidden="true" />
+              {databoxId}
+            </button>
           </div>
         </CardContent>
       </Card>
