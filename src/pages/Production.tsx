@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/shared/SEO";
-import { FileText } from "lucide-react";
 import { services } from "@/constants/services";
 
 const fadeUp = {
@@ -84,30 +83,6 @@ export const Production = () => {
               </motion.div>
             );
           })}
-        </div>
-      </section>
-
-      <section className="bg-metal-950 py-16">
-        <div className="container mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-10"
-          >
-            <div className="shrink-0 flex items-center justify-center w-16 h-16 rounded-xl bg-brand/20 text-brand">
-              <FileText className="w-8 h-8" />
-            </div>
-            <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                {t("production.engineering.title")}
-              </h2>
-              <p className="text-white/70 text-base md:text-lg leading-relaxed max-w-3xl">
-                {t("production.engineering.description")}
-              </p>
-            </div>
-          </motion.div>
         </div>
       </section>
     </div>
