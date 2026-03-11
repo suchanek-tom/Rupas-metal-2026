@@ -10,25 +10,28 @@
   },
   "hero": {
     "title": "Specialisté na strojírenskou technologii, svařování kovů a slitin",
-    "subtitle": "Naše dodávky se nikdy nezpozdují. Váš požadovaný termín je pro nás nejvyšší priorita. V případě potřeby pro nás pracovní doba neplatí a jsme schopni pro splnění vašich požadavků udělat nemožné.",
+    "subtitle": "U nás věříme, že kvalitní strojírenství není jen o technologiích, ale především o přístupu.",
     "cta": "O firmě"
+  },
+  "home": {
+    "introTitle": "Jak pracujeme?",
+    "introParagraph1": "U nás věříme, že kvalitní strojírenství není jen o technologiích, ale především o přístupu. Každý projekt pro nás představuje závazek dodat řešení, které bude funkční, spolehlivé a připravené obstát v reálném provozu.",
+    "introParagraph2": "Zaměřujeme se na výrobu kovových konstrukcí, dílů a technologických celků na míru. Zakázky realizujeme v plném výrobním procesu, od technického řešení přes výrobu až po finální sestavení. Díky tomu dokážeme zajistit plynulý průběh projektu a výsledek, který splňuje očekávání i náročné technické požadavky.",
+    "introParagraph3": "Základem naší práce je otevřená komunikace, flexibilita a spolehlivost. Nasloucháme potřebám zákazníků a hledáme řešení, která dávají smysl nejen na papíře, ale především v praxi. Věříme, že dlouhodobá spolupráce vzniká tam, kde se spojuje kvalita práce, důvěra a férové jednání."
   },
   "production": {
     "title": "Strojírenská výroba",
     "subtitle": "Naše společnost se zabývá komplexní strojírenskou výrobou od A do Z.",
-    "servicesHeading": "Naše služby",
-    "engineering": {
-      "title": "Konstrukční služby",
-      "description": "Zhotovení výrobní dokumentace, statické výpočty, optimalizace výroby, návrhy pro zlepšení a efektivní řízení výrobního procesu."
-    }
+    "servicesHeading": "Naše služby"
   },
   "services": {
-    "machines": { "title": "Výroba strojních celků", "description": "Výrobou strojních celků a zařízení" },
-    "series": { "title": "Kusová a sériová výroba", "description": "Kusovou, malosériovou i sériovou výrobou" },
-    "renovation": { "title": "Renovace náhradních dílů", "description": "Renovací náhradních dílů pro zařízení těžkého průmyslu" },
-    "complete": { "title": "Kompletní výroba od A–Z", "description": "Od vstupního materiálu až po kompletaci dílů po obrábění a finální montáž" },
-    "piping": { "title": "Potrubní systémy & energetika", "description": "Potrubní systémy, energetika" },
-    "welding": { "title": "Svařování", "description": "MIG/MAG, TIG, Elektroda" }
+    "machines": { "title": "Výroba strojních celků", "description": "Vyrábíme stroje a technologická zařízení, která se stanou spolehlivou součástí vašich provozů. Zaměřujeme se na precizní provedení a funkčnost." },
+    "series": { "title": "Kusová a sériová výroba", "description": "Realizujeme kvalitní zakázkovou výrobu jednotlivých dílů i opakované série. Dokážeme efektivně reagovat na specifické požadavky a termíny vašich projektů." },
+    "renovation": { "title": "Renovace náhradních dílů", "description": "Vracíme život opotřebených součástí strojů a zařízení pro těžký průmysl. Cílenou renovací šetříme vaše náklady na nákup nových dílů a minimalizujeme prostoje ve výrobě. Každý díl prochází důkladnou kontrolou, aby splňoval parametry originálu." },
+    "complete": { "title": "Kompletní výroba od A–Z", "description": "Zbavíme vás starostí s logistikou mezi dodavateli. Od nákupu surového materiálu, přes precizní obrábění, povrchovou úpravu, po finální montáž a odzkoušení." },
+    "piping": { "title": "Potrubní systémy & energetika", "description": "Specializujeme se na výrobu a montáž potrubních tras a komponentů pro energetický sektor." },
+    "welding": { "title": "Svařování", "description": "Nabízíme profesionální svařování metodami MIG/MAG, TIG i elektrodou. Naši zkušení svářeči garantují vysokou pevnost a estetickou čistotu svarů v konstrukčních dílech i tlakových nádobách, vždy s důrazem na přesnost dle dokumentace." },
+    "engineering": { "title": "Konstrukční služby", "description": "Naše práce nekončí jen u výroby. Zpracujeme kompletní výrobní dokumentaci i návrhy na optimalizaci výrobních postupů. Pomůžeme vám zefektivnit procesy a najít řešení, která šetří čas, snižují náklady a minimalizují spotřebu materiálu." }
   },
   "equipment": {
     "title": "Technologické možnosti",
@@ -58,7 +61,7 @@
     "title": "Reference",
     "subtitle": "Co umíme vyrobit a kam naše výrobky putují.",
     "whatWeDeliver": "Co dodáváme:",
-    "countriesTitle": "Do jakých zemí dodáváme?"
+    "countriesTitle": "Dodáváme do celé EU"
   },
   "productions": {
     "structures": "Výroba nosných konstrukcí",
@@ -70,20 +73,48 @@
     "assembly": "Výroba a montáž technologických celků",
     "disassembly": "Montáž a demontáž dílů"
   },
-  "countries": {
-    "cz": "Česká republika",
-    "de": "Německo",
-    "at": "Rakousko",
-    "gb": "Velká Británie",
-    "fi": "Finsko",
-    "be": "Belgie",
-    "nl": "Nizozemsko",
-    "lu": "Lucembursko"
-  },
   "gallery": {
     "title": "Galerie",
     "subtitle": "Ukázky naší práce a výrobního prostředí.",
-    "empty": "Fotky brzy přibydou."
+    "empty": "Fotky brzy přibydou.",
+    "images": {
+      "img1": "Strojní výroba",
+      "img2": "CNC obrábění",
+      "img3": "Soustružení",
+      "img4": "Frézování",
+      "img6": "Výroba nosných konstrukcí",
+      "img7": "Výroba strojních součástí",
+      "img9": "Výroba převodových skříní",
+      "img10": "Energetické části – výměníky",
+      "img11": "Výrobní hala",
+      "img12": "Kontrola kvality",
+      "img13": "Hydraulický lis",
+      "img14": "Horizontální vyvrtávačka",
+      "img15": "Dokončovací práce",
+      "img16": "Výrobní proces",
+      "img17": "Detail obrábění",
+      "img19": "Výroba ocelových konstrukcí",
+      "img20": "Obrábění rozměrných dílů",
+      "img21": "Přesná strojírenská výroba",
+      "img22": "Svařované strojní celky",
+      "img23": "Výroba technologických dílů",
+      "img24": "Opracování kovových součástí",
+      "img25": "Detail výrobního procesu",
+      "img26": "Těžká strojírenská výroba",
+      "img27": "Příprava a kompletace dílů",
+      "img28": "Hotový strojní celek",
+      "montaz1": "Montáž technologického celku",
+      "montaz2": "Montáž a demontáž dílů",
+      "montaz3": "Montáž strojního zařízení",
+      "montaz4": "Montáž v terénu",
+      "montaz5": "Instalace technologie",
+      "newImg1": "Výroba lopat a lžic",
+      "newImg2": "Hardoxové drtiče a násypky",
+      "newImg3": "Výroba výklopných lžic",
+      "newImg4": "Potrubní systémy",
+      "newImg5": "Trubkovnice a výměníky tepla",
+      "newImg6": "Renovace náhradních dílů"
+    }
   },
   "seo": {
     "home": {

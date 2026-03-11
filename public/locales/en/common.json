@@ -10,25 +10,28 @@
   },
   "hero": {
     "title": "Specialists in machining technology, metal and alloy welding",
-    "subtitle": "Our deliveries are never late. Your requested deadline is our highest priority. If needed, working hours are no barrier – we are capable of doing the impossible to meet your requirements.",
+    "subtitle": "We believe that high-quality engineering is not only about technology, but above all about approach.",
     "cta": "About Us"
+  },
+  "home": {
+    "introTitle": "How We Work?",
+    "introParagraph1": "We believe that high-quality engineering is not only about technology, but above all about approach. For us, every project is a commitment to deliver a solution that is functional, reliable, and ready to perform in real operation.",
+    "introParagraph2": "We focus on custom manufacturing of metal structures, components, and technological units. We execute orders through the full production process, from technical design through manufacturing to final assembly. This allows us to ensure a smooth project workflow and a result that meets expectations as well as demanding technical requirements.",
+    "introParagraph3": "The foundation of our work is open communication, flexibility, and reliability. We listen to customer needs and seek solutions that make sense not only on paper, but above all in practice. We believe that long-term cooperation is built where quality work, trust, and fair dealing come together."
   },
   "production": {
     "title": "Engineering Production",
     "subtitle": "Our company is engaged in comprehensive engineering production from A to Z.",
-    "servicesHeading": "Our Services",
-    "engineering": {
-      "title": "Engineering Services",
-      "description": "Preparation of production documentation, static calculations, production optimisation, improvement proposals and effective management of the production process."
-    }
+    "servicesHeading": "Our Services"
   },
   "services": {
-    "machines": { "title": "Manufacture of Machine Units", "description": "Production of machine units and equipment" },
-    "series": { "title": "Single-piece and Series Production", "description": "Single-piece, small-batch and series production" },
-    "renovation": { "title": "Renovation of Spare Parts", "description": "Renovation of spare parts for heavy industry equipment" },
-    "complete": { "title": "Complete Production from A–Z", "description": "From raw material to assembly of machined parts and final assembly" },
-    "piping": { "title": "Piping Systems & Energy", "description": "Piping systems, energy sector" },
-    "welding": { "title": "Welding", "description": "MIG/MAG, TIG, Electrode" }
+    "machines": { "title": "Manufacture of Machine Units", "description": "We manufacture machines and technological equipment that will become a reliable part of your operations. We focus on precise execution and functionality." },
+    "series": { "title": "Single-piece and Series Production", "description": "We carry out high-quality custom production of individual parts and repeated series. We can effectively respond to the specific requirements and deadlines of your projects." },
+    "renovation": { "title": "Renovation of Spare Parts", "description": "We bring worn parts of machines and equipment back to life for heavy industry. Through targeted renovation we save your costs on purchasing new parts and minimise production downtime. Every part undergoes thorough inspection to meet the parameters of the original." },
+    "complete": { "title": "Complete Production from A–Z", "description": "We take care of the logistics between suppliers. From purchasing raw material, through precise machining and surface treatment, to final assembly and testing." },
+    "piping": { "title": "Piping Systems & Energy", "description": "We specialise in the manufacture and installation of piping routes and components for the energy sector." },
+    "welding": { "title": "Welding", "description": "We offer professional welding using MIG/MAG, TIG and electrode methods. Our experienced welders guarantee high strength and aesthetic cleanliness of welds in structural parts and pressure vessels, always with emphasis on precision according to documentation." },
+    "engineering": { "title": "Engineering Services", "description": "Our work does not end at manufacturing. We prepare complete production documentation and proposals for optimising production processes. We help you streamline processes and find solutions that save time, reduce costs and minimise material consumption." }
   },
   "equipment": {
     "title": "Technological Capabilities",
@@ -58,7 +61,7 @@
     "title": "References",
     "subtitle": "What we can manufacture and where our products go.",
     "whatWeDeliver": "What we deliver:",
-    "countriesTitle": "Which countries do we deliver to?"
+    "countriesTitle": "We deliver throughout the Europe"
   },
   "productions": {
     "structures": "Manufacture of load-bearing structures",
@@ -70,20 +73,48 @@
     "assembly": "Manufacture and assembly of technological units",
     "disassembly": "Assembly and disassembly of parts"
   },
-  "countries": {
-    "cz": "Czech Republic",
-    "de": "Germany",
-    "at": "Austria",
-    "gb": "United Kingdom",
-    "fi": "Finland",
-    "be": "Belgium",
-    "nl": "Netherlands",
-    "lu": "Luxembourg"
-  },
   "gallery": {
     "title": "Gallery",
     "subtitle": "Samples of our work and production environment.",
-    "empty": "Photos coming soon."
+    "empty": "Photos coming soon.",
+    "images": {
+      "img1": "Engineering production",
+      "img2": "CNC machining",
+      "img3": "Turning",
+      "img4": "Milling",
+      "img6": "Load-bearing structure production",
+      "img7": "Machine parts production",
+      "img9": "Gearbox production",
+      "img10": "Energy components - heat exchangers",
+      "img11": "Production hall",
+      "img12": "Quality control",
+      "img13": "Hydraulic press",
+      "img14": "Horizontal boring machine",
+      "img15": "Finishing work",
+      "img16": "Production process",
+      "img17": "Machining detail",
+      "img19": "Steel structure production",
+      "img20": "Machining of large components",
+      "img21": "Precision engineering production",
+      "img22": "Welded machine assemblies",
+      "img23": "Production of technological components",
+      "img24": "Machining of metal parts",
+      "img25": "Production process detail",
+      "img26": "Heavy engineering production",
+      "img27": "Part preparation and assembly",
+      "img28": "Finished machine assembly",
+      "montaz1": "Assembly of a technological unit",
+      "montaz2": "Assembly and disassembly of parts",
+      "montaz3": "Assembly of machinery",
+      "montaz4": "On-site assembly",
+      "montaz5": "Technology installation",
+      "newImg1": "Production of blades and buckets",
+      "newImg2": "Hardox crushers and hoppers",
+      "newImg3": "Production of tipping buckets",
+      "newImg4": "Piping systems",
+      "newImg5": "Tube sheets and heat exchangers",
+      "newImg6": "Renovation of spare parts"
+    }
   },
   "seo": {
     "home": {

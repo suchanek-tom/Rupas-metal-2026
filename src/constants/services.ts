@@ -1,4 +1,4 @@
-import { Factory, Flame, Package, Settings2, Wrench, Zap } from "lucide-react";
+import { Factory, FileText, Flame, Package, Settings2, Wrench, Zap } from "lucide-react";
 
 export const services = [
   {
@@ -38,4 +38,10 @@ export const services = [
     title: "Svařování",
     description: "MIG/MAG, TIG, Elektroda",
   },
+  {
+    icon: FileText,
+    key: "engineering",
+    title: "Konstrukční služby",
+    description: "Zhotovení výrobní dokumentace, statické výpočty, optimalizace výroby, návrhy pro zlepšení a efektivní řízení výrobního procesu."
+  }
 ];
