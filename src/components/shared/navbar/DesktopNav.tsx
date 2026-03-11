@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { navLinks } from "../../../constants/navigation";
-import { languageLabels } from "../../../constants/languages";
+import { languages } from "../../../constants/languages";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,6 +12,7 @@ import {
 
 export const DesktopNav = () => {
   const { t, i18n } = useTranslation();
+  const currentLanguage = languages.find((lang) => lang.code === i18n.language);
 
   const handleLanguageChange = (langCode: string) => {
     i18n.changeLanguage(langCode);
@@ -33,22 +34,22 @@ export const DesktopNav = () => {
       </ul>
 
       <DropdownMenu>
-        <DropdownMenuTrigger className="flex items-center gap-2 text-sm text-black hover:text-brand transition-colors font-medium outline-none">
-          {languageLabels[i18n.language] || "CZ"}
+        <DropdownMenuTrigger className="flex items-center gap-2 text-2xl text-black hover:text-brand transition-colors font-medium outline-none">
+          {currentLanguage?.triggerLabel || "🇨🇿"}
           <ChevronDown className="w-4 h-4" />
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end" className="min-w-30">
-          {Object.entries(languageLabels).map(([code, label]) => (
+          {languages.map((lang) => (
             <DropdownMenuItem
-              key={code}
-              onClick={() => handleLanguageChange(code)}
+              key={lang.code}
+              onClick={() => handleLanguageChange(lang.code)}
               className={
-                i18n.language === code
+                i18n.language === lang.code
                   ? "text-brand font-semibold"
                   : "text-black"
               }
             >
-              {label}
+              {lang.label}
             </DropdownMenuItem>
           ))}
         </DropdownMenuContent>
