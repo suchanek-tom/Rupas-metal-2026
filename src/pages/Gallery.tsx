@@ -9,16 +9,14 @@ import "yet-another-react-lightbox/plugins/captions.css";
 import { galleryImages } from "@/constants/gallery";
 import { GalleryGrid } from "@/components/sections/Gallery";
 
-const slides = galleryImages.map((img) => ({
-  src: img.src,
-  alt: img.alt,
-  title: img.alt,
-  description: img.caption,
-}));
-
 export const Gallery = () => {
   const { t } = useTranslation();
   const [lightboxIndex, setLightboxIndex] = useState<number>(-1);
+  const slides = galleryImages.map((img) => ({
+    src: img.src,
+    alt: t(img.alt),
+    description: img.caption ? t(img.caption) : undefined,
+  }));
 
   return (
     <div className="min-h-screen bg-white">

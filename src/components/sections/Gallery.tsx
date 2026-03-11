@@ -38,7 +38,6 @@ export const GalleryGrid = ({ onImageClick }: Props) => {
         >
           <img
             src={img.src}
-            alt={img.alt}
             loading="lazy"
             decoding="async"
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -46,7 +45,7 @@ export const GalleryGrid = ({ onImageClick }: Props) => {
           {img.caption && (
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-end">
               <span className="block w-full px-4 py-3 text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 translate-y-2 group-hover:translate-y-0">
-                {img.caption}
+                {t(img.caption)}
               </span>
             </div>
           )}
