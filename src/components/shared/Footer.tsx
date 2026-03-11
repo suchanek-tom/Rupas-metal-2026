@@ -67,8 +67,13 @@ export const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-metal-900 text-sm text-[#707070]">
-          <p>
-            RUPAS METAL © {new Date().getFullYear()} {t("footer.rights")}. {t("footer.madeBy")}.
+          <p className="flex flex-wrap items-center justify-center md:justify-between gap-2">
+            <span>RUPAS METAL © {new Date().getFullYear()} {t("footer.rights")}.</span>
+            <img
+              src="/images/DAS_Logo_2023.png"
+              alt="DAS logo"
+              className="h-20 w-auto"
+            />
           </p>
         </div>
       </div>
