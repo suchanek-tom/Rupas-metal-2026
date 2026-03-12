@@ -9,15 +9,17 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Specialists in machining technology, metal and alloy welding",
-    "subtitle": "We believe that high-quality engineering is not only about technology, but above all about approach.",
+    "title": "Complexe Solutions in Engineering Production",
+    "subtitle": "We provide the production of metal structures, machines and equipment, metal welding and other technological operations for industrial orders.",
     "cta": "About Us"
   },
   "home": {
     "introTitle": "How We Work?",
     "introParagraph1": "We believe that high-quality engineering is not only about technology, but above all about approach. For us, every project is a commitment to deliver a solution that is functional, reliable, and ready to perform in real operation.",
     "introParagraph2": "We focus on custom manufacturing of metal structures, components, and technological units. We execute orders through the full production process, from technical design through manufacturing to final assembly. This allows us to ensure a smooth project workflow and a result that meets expectations as well as demanding technical requirements.",
-    "introParagraph3": "The foundation of our work is open communication, flexibility, and reliability. We listen to customer needs and seek solutions that make sense not only on paper, but above all in practice. We believe that long-term cooperation is built where quality work, trust, and fair dealing come together."
+    "introParagraph3": "The foundation of our work is open communication, flexibility, and reliability. We listen to customer needs and seek solutions that make sense not only on paper, but above all in practice. We believe that long-term cooperation is built where quality work, trust, and fair dealing come together.",
+    "qualityPolicyTitle": "Quality Policy",
+    "qualityPolicyText": "The company is committed to providing customers with high-quality and reliable solutions that meet their requirements as well as relevant legal and technical regulations. We place emphasis on a responsible approach, stable production quality, and reliability of deliveries. At the same time, we are committed to continuously improving our processes and quality management system with the goal of long-term customer satisfaction."
   },
   "production": {
     "title": "Engineering Production",

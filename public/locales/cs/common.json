@@ -9,15 +9,17 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "Specialisté na strojírenskou technologii, svařování kovů a slitin",
-    "subtitle": "U nás věříme, že kvalitní strojírenství není jen o technologiích, ale především o přístupu.",
+    "title": "Komplexní řešení ve strojírenské výrobě",
+    "subtitle": "Zajišťujeme výrobu kovových konstrukcí, strojů a zařízení, svařování kovů a další technologické operace pro průmyslové zakázky.",
     "cta": "O firmě"
   },
   "home": {
     "introTitle": "Jak pracujeme?",
     "introParagraph1": "U nás věříme, že kvalitní strojírenství není jen o technologiích, ale především o přístupu. Každý projekt pro nás představuje závazek dodat řešení, které bude funkční, spolehlivé a připravené obstát v reálném provozu.",
     "introParagraph2": "Zaměřujeme se na výrobu kovových konstrukcí, dílů a technologických celků na míru. Zakázky realizujeme v plném výrobním procesu, od technického řešení přes výrobu až po finální sestavení. Díky tomu dokážeme zajistit plynulý průběh projektu a výsledek, který splňuje očekávání i náročné technické požadavky.",
-    "introParagraph3": "Základem naší práce je otevřená komunikace, flexibilita a spolehlivost. Nasloucháme potřebám zákazníků a hledáme řešení, která dávají smysl nejen na papíře, ale především v praxi. Věříme, že dlouhodobá spolupráce vzniká tam, kde se spojuje kvalita práce, důvěra a férové jednání."
+    "introParagraph3": "Základem naší práce je otevřená komunikace, flexibilita a spolehlivost. Nasloucháme potřebám zákazníků a hledáme řešení, která dávají smysl nejen na papíře, ale především v praxi. Věříme, že dlouhodobá spolupráce vzniká tam, kde se spojuje kvalita práce, důvěra a férové jednání.",
+    "qualityPolicyTitle": "Politika kvality",
+    "qualityPolicyText": "Společnost se zavazuje poskytovat zákazníkům kvalitní a spolehlivá řešení, která splňují jejich požadavky i relevantní právní a technické předpisy. Důraz klademe na odpovědný přístup, stabilní kvalitu výroby a spolehlivost dodávek. Současně se zavazujeme soustavně zlepšovat naše procesy a systém managementu kvality s cílem dlouhodobě zvyšovat spokojenost zákazníků."
   },
   "production": {
     "title": "Strojírenská výroba",
