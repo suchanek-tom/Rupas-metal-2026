@@ -135,31 +135,42 @@
   "seo": {
     "home": {
       "title": "Specialists in machining technology and metal welding",
-      "description": "RUPAS METAL s.r.o. – experts in engineering production, metal and alloy welding. Comprehensive production from A to Z, certified quality, deliveries across Europe."
+      "description": "RUPAS METAL s.r.o. – experts in engineering production, metal and alloy welding. Comprehensive production from A to Z, certified quality, deliveries across Europe.",
+      "keywords": "engineering production, metal fabrication, steel structures, CNC machining, metal welding, machine assemblies, custom manufacturing, Fulnek"
     },
     "production": {
       "title": "Engineering Production",
-      "description": "Comprehensive engineering production from A to Z. Manufacture of machine units, load-bearing structures, renovation of spare parts and assembly of technological units."
+      "description": "Comprehensive engineering production from A to Z. Manufacture of machine units, load-bearing structures, renovation of spare parts and assembly of technological units.",
+      "keywords": "engineering production, machine assemblies, steel structure manufacturing, spare parts renovation, industrial assembly, piping systems, MIG MAG TIG welding"
     },
     "equipment": {
       "title": "Technological Capabilities",
-      "description": "Overview of machinery and technological capacity of RUPAS METAL. CNC machining, MIG/MAG and TIG welding, and more."
+      "description": "Overview of machinery and technological capacity of RUPAS METAL. CNC machining, MIG/MAG and TIG welding, and more.",
+      "keywords": "technological capabilities, CNC lathes, CNC milling machines, horizontal boring machine, TIG welding, MIG MAG welding, machining centre"
     },
     "certifications": {
       "title": "Certifications",
-      "description": "Quality certifications of RUPAS METAL s.r.o. Our products and services meet strict requirements for quality and precision."
+      "description": "Quality certifications of RUPAS METAL s.r.o. Our products and services meet strict requirements for quality and precision.",
+      "keywords": "certifications, quality certificates, engineering quality, certified manufacturing, precision standards"
     },
     "contact": {
       "title": "Contact",
-      "description": "Contact details for RUPAS METAL s.r.o. – address, e-mail, data box. We are happy to advise you and prepare a quote."
+      "description": "Contact details for RUPAS METAL s.r.o. – address, e-mail, data box. We are happy to advise you and prepare a quote.",
+      "keywords": "RUPAS METAL contact, Fulnek, engineering company contact, request a quote, metal fabrication contact"
     },
     "references": {
       "title": "References",
-      "description": "References and projects by RUPAS METAL. We deliver to Czech Republic, Germany, Austria, the UK and other European countries."
+      "description": "References and projects by RUPAS METAL. We deliver to Czech Republic, Germany, Austria, the UK and other European countries.",
+      "keywords": "engineering references, steel fabrication projects, EU deliveries, industrial manufacturing references, custom metalwork portfolio"
     },
     "gallery": {
       "title": "Gallery",
-      "description": "Photo gallery of products and production environment at RUPAS METAL s.r.o."
+      "description": "Photo gallery of products and production environment at RUPAS METAL s.r.o.",
+      "keywords": "engineering gallery, production photos, CNC machining gallery, welding photos, steel fabrication images"
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "The requested page could not be found. Continue to the main overview of services and contact details for RUPAS METAL s.r.o."
     }
   },
   "footer": {

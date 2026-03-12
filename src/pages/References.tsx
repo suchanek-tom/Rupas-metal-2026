@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/shared/SEO";
 import { productions } from "@/constants/productions";
+import { SITE_URL, parseKeywords } from "@/lib/seo";
 import { motion } from "framer-motion";
 
 const fadeUp = {
@@ -14,12 +15,26 @@ const fadeUp = {
 
 export const References = () => {
   const { t } = useTranslation();
+  const description = t("seo.references.description");
+  const keywords = parseKeywords(t("seo.references.keywords"));
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: t("seo.references.title"),
+    description,
+    url: `${SITE_URL}/reference`,
+    about: keywords,
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <SEO
         title={t("seo.references.title")}
-        description={t("seo.references.description")}
+        description={description}
         canonical="/reference"
+        keywords={keywords}
+        image="/images/europe-map.png"
+        structuredData={structuredData}
       />
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
         <div

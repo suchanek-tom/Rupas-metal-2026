@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/shared/SEO";
+import { SITE_URL, parseKeywords } from "@/lib/seo";
 import type { EquipmentRow } from "@/types/EquipmentTypes";
 
 const fadeUp = {
@@ -15,12 +16,26 @@ const fadeUp = {
 export const Equipment = () => {
   const { t } = useTranslation();
   const equipmentData = t("equipment.data", { returnObjects: true }) as EquipmentRow[];
+  const description = t("seo.equipment.description");
+  const keywords = parseKeywords(t("seo.equipment.keywords"));
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: t("seo.equipment.title"),
+    description,
+    url: `${SITE_URL}/equipment`,
+    about: keywords,
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <SEO
         title={t("seo.equipment.title")}
-        description={t("seo.equipment.description")}
+        description={description}
         canonical="/equipment"
+        keywords={keywords}
+        image="/images/img11.jpg"
+        structuredData={structuredData}
       />
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
         <div

@@ -1,16 +1,37 @@
 import { SEO } from "@/components/shared/SEO";
+import { SITE_NAME, SITE_URL, parseKeywords } from "@/lib/seo";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Hero } from "../components/sections/Hero";
 
 export const Home = () => {
   const { t } = useTranslation();
+  const description = t("seo.home.description");
+  const keywords = parseKeywords(t("seo.home.keywords"));
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: t("seo.home.title"),
+    description,
+    url: `${SITE_URL}/`,
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    about: keywords,
+    primaryImageOfPage: `${SITE_URL}/images/rupas-main-photo.png`,
+  };
+
   return (
     <>
       <SEO
         title={t("seo.home.title")}
-        description={t("seo.home.description")}
+        description={description}
         canonical="/"
+        keywords={keywords}
+        image="/images/rupas-main-photo.png"
+        structuredData={structuredData}
       />
       <Hero />
       <section id="home-intro" className="bg-background py-16 md:py-20">

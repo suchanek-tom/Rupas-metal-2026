@@ -8,10 +8,21 @@ import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/captions.css";
 import { galleryImages } from "@/constants/gallery";
 import { GalleryGrid } from "@/components/sections/Gallery";
+import { SITE_URL, parseKeywords } from "@/lib/seo";
 
 export const Gallery = () => {
   const { t } = useTranslation();
   const [lightboxIndex, setLightboxIndex] = useState<number>(-1);
+  const description = t("seo.gallery.description");
+  const keywords = parseKeywords(t("seo.gallery.keywords"));
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ImageGallery",
+    name: t("seo.gallery.title"),
+    description,
+    url: `${SITE_URL}/galerie`,
+    about: keywords,
+  };
   const slides = galleryImages.map((img) => ({
     src: img.src,
     alt: t(img.alt),
@@ -22,8 +33,11 @@ export const Gallery = () => {
     <div className="min-h-screen bg-white">
       <SEO
         title={t("seo.gallery.title")}
-        description={t("seo.gallery.description")}
+        description={description}
         canonical="/galerie"
+        keywords={keywords}
+        image="/images/rupas-main-photo.png"
+        structuredData={structuredData}
       />
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
         <div

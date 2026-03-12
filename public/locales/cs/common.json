@@ -135,31 +135,42 @@
   "seo": {
     "home": {
       "title": "Specialisté na strojírenskou technologii a svařování",
-      "description": "RUPAS METAL s.r.o. – odborníci na strojírenskou výrobu, svařování kovů a slitin. Komplexní výroba od A do Z, certifikovaná kvalita, dodávky do celé Evropy."
+      "description": "RUPAS METAL s.r.o. – odborníci na strojírenskou výrobu, svařování kovů a slitin. Komplexní výroba od A do Z, certifikovaná kvalita, dodávky do celé Evropy.",
+      "keywords": "strojírenská výroba, strojírenská firma, kovové konstrukce, CNC obrábění, svařování oceli, výroba strojních celků, zakázková výroba, Fulnek"
     },
     "production": {
       "title": "Strojírenská výroba",
-      "description": "Komplexní strojírenská výroba od A do Z. Výroba strojních celků, nosných konstrukcí, renovace náhradních dílů a montáž technologických celků."
+      "description": "Komplexní strojírenská výroba od A do Z. Výroba strojních celků, nosných konstrukcí, renovace náhradních dílů a montáž technologických celků.",
+      "keywords": "strojírenská výroba, výroba strojních celků, výroba ocelových konstrukcí, renovace náhradních dílů, montáž technologických celků, potrubní systémy, svařování MIG MAG TIG"
     },
     "equipment": {
       "title": "Technologické možnosti",
-      "description": "Přehled strojního vybavení a technologických kapacit RUPAS METAL. CNC obrábění, svařování MIG/MAG, TIG a další technologie."
+      "description": "Přehled strojního vybavení a technologických kapacit RUPAS METAL. CNC obrábění, svařování MIG/MAG, TIG a další technologie.",
+      "keywords": "technologické možnosti, CNC soustruhy, CNC frézy, horizontální vyvrtávačka, svařování TIG, svařování MIG MAG, obráběcí centrum"
     },
     "certifications": {
       "title": "Certifikace",
-      "description": "Certifikace a osvědčení kvality RUPAS METAL s.r.o. Naše výrobky a služby splňují přísné požadavky na kvalitu a preciznost."
+      "description": "Certifikace a osvědčení kvality RUPAS METAL s.r.o. Naše výrobky a služby splňují přísné požadavky na kvalitu a preciznost.",
+      "keywords": "certifikace, osvědčení kvality, strojírenské certifikáty, kvalita výroby, certifikovaná výroba"
     },
     "contact": {
       "title": "Kontakt",
-      "description": "Kontaktní údaje RUPAS METAL s.r.o. – adresa, e-mail, datová schránka. Rádi vám poradíme a připravíme cenovou nabídku."
+      "description": "Kontaktní údaje RUPAS METAL s.r.o. – adresa, e-mail, datová schránka. Rádi vám poradíme a připravíme cenovou nabídku.",
+      "keywords": "kontakt RUPAS METAL, Fulnek, strojírenská firma kontakt, cenová nabídka, kovovýroba kontakt"
     },
     "references": {
       "title": "Reference",
-      "description": "Reference a realizace RUPAS METAL. Dodáváme do České republiky, Německa, Rakouska, Velké Británie a dalších zemí Evropy."
+      "description": "Reference a realizace RUPAS METAL. Dodáváme do České republiky, Německa, Rakouska, Velké Británie a dalších zemí Evropy.",
+      "keywords": "reference strojírenské výroby, realizace kovových konstrukcí, dodávky do EU, strojírenské zakázky, průmyslové reference"
     },
     "gallery": {
       "title": "Galerie",
-      "description": "Fotogalerie výrobků a výrobního prostředí RUPAS METAL s.r.o."
+      "description": "Fotogalerie výrobků a výrobního prostředí RUPAS METAL s.r.o.",
+      "keywords": "galerie strojírenské výroby, fotografie výroby, CNC obrábění foto, svařování foto, kovové konstrukce galerie"
+    },
+    "notFound": {
+      "title": "Stránka nenalezena",
+      "description": "Požadovaná stránka nebyla nalezena. Pokračujte na hlavní přehled služeb a kontaktů společnosti RUPAS METAL s.r.o."
     }
   },
   "footer": {

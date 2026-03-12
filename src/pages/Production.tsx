@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/shared/SEO";
 import { services } from "@/constants/services";
+import { SITE_NAME, SITE_URL, parseKeywords } from "@/lib/seo";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 32 },
@@ -14,12 +15,32 @@ const fadeUp = {
 
 export const Production = () => {
   const { t } = useTranslation();
+  const description = t("seo.production.description");
+  const keywords = parseKeywords(t("seo.production.keywords"));
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: t("production.title"),
+    description,
+    url: `${SITE_URL}/production`,
+    serviceType: t("production.title"),
+    areaServed: "Europe",
+    provider: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <SEO
         title={t("seo.production.title")}
-        description={t("seo.production.description")}
+        description={description}
         canonical="/production"
+        keywords={keywords}
+        image="/images/rupas-main-photo.png"
+        structuredData={structuredData}
       />
       <section className="relative flex items-center justify-center min-h-[40vh] overflow-hidden">
         <div

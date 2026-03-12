@@ -1,16 +1,53 @@
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/shared/SEO";
+import { SITE_NAME, SITE_URL, parseKeywords } from "@/lib/seo";
 import { ContactCards } from "../components/sections/ContactCards";
 import { TeamSection } from "../components/sections/TeamSection";
 
 export const Contact = () => {
   const { t } = useTranslation();
+  const description = t("seo.contact.description");
+  const keywords = parseKeywords(t("seo.contact.keywords"));
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      name: t("seo.contact.title"),
+      description,
+      url: `${SITE_URL}/contact`,
+      about: SITE_NAME,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+      email: "info@rupas-metal.cz",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Masarykova 702",
+        postalCode: "742 45",
+        addressLocality: "Fulnek",
+        addressCountry: "CZ",
+      },
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "07:00",
+        closes: "17:00",
+      },
+      sameAs: ["https://www.instagram.com/rupas_metal/"],
+    },
+  ];
+
   return (
     <div className="min-h-screen bg-gray-50">
       <SEO
         title={t("seo.contact.title")}
-        description={t("seo.contact.description")}
+        description={description}
         canonical="/contact"
+        keywords={keywords}
+        structuredData={structuredData}
       />
       <section className="bg-brand text-white py-16">
         <div className="container mx-auto px-6">
