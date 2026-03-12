@@ -19,7 +19,7 @@ export const Hero = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/images/rupas-main-photo.png')" }}
         />
-        <div className="absolute inset-0 bg-black/25" />
+        <div className="absolute inset-0 bg-black/30" />
         <div className="absolute top-0 left-0 right-0 h-24 from-black/30 to-transparent z-10" />
       </div>
 
