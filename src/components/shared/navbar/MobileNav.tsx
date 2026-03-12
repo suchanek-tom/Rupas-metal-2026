@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -66,13 +66,17 @@ export const MobileNav = ({ isMenuOpen, onToggleMenu, onCloseMenu }: MobileNavPr
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: index * 0.05 }}
                       >
-                        <Link
+                        <NavLink
                           to={link.to}
                           onClick={onCloseMenu}
-                          className="block py-3 text-lg text-black hover:text-brand transition-colors font-medium"
+                          className={({ isActive }) =>
+                            `block py-3 text-lg transition-colors font-medium ${
+                              isActive ? "text-brand" : "text-black hover:text-brand"
+                            }`
+                          }
                         >
                           {t(link.i18nKey)}
-                        </Link>
+                        </NavLink>
                       </motion.li>
                     ))}
                   </ul>
