@@ -55,16 +55,23 @@ export const Home = () => {
               </h3>
               <p>{t("home.qualityPolicyText")}</p>
             </div>
-            <div className="grid md:grid-cols-2 gap-4 mt-4">
-              <img
-                src="/images/rupas-main-photo.png"
-                alt="Rupas Metal"
-                className="w-full h-64 object-cover rounded-xl shadow-md"
-              />
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+              <div className="md:row-span-2">
+                <img
+                  src="/images/img29.jpeg"
+                  alt="Rupas Metal"
+                  className="w-full h-full object-center rounded-xl shadow-md"
+                />
+              </div>
               <img
                 src="/images/img9.jpg"
                 alt="Rupas Metal montáž"
-                className="w-full h-64 object-cover rounded-xl shadow-md"
+                className="md:col-span-2 w-full h-48 object-cover rounded-xl shadow-md"
+              />
+              <img
+                src="/images/img26.jpg"
+                alt="Rupas Metal"
+                className="md:col-span-2 w-full h-full object-cover rounded-xl shadow-md"
               />
             </div>
           </motion.div>
