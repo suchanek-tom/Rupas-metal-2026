@@ -66,12 +66,12 @@ export const Home = () => {
               <img
                 src="/images/img9.jpg"
                 alt="Rupas Metal montáž"
-                className="md:col-span-2 w-full h-48 object-cover rounded-xl shadow-md"
+                className="md:col-span-2 w-full h-64 object-cover rounded-xl shadow-md"
               />
               <img
                 src="/images/img26.jpg"
                 alt="Rupas Metal"
-                className="md:col-span-2 w-full h-full object-cover rounded-xl shadow-md"
+                className="md:col-span-2 w-full h-64 object-cover rounded-xl shadow-md"
               />
             </div>
           </motion.div>
