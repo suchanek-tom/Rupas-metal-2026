@@ -66,7 +66,9 @@ export const Gallery = () => {
       </section>
 
       <section className="container mx-auto px-6 py-16 md:py-24">
-        <GalleryGrid onImageClick={setLightboxIndex} />
+        <div className="mx-auto max-w-7xl">
+          <GalleryGrid onImageClick={setLightboxIndex} />
+        </div>
       </section>
 
       <Lightbox

@@ -69,17 +69,18 @@ export const Production = () => {
       </section>
 
       <section className="container mx-auto px-6 py-16 md:py-24">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
-        >
-          {t("production.servicesHeading")}
-        </motion.h2>
+        <div className="mx-auto max-w-7xl">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
+          >
+            {t("production.servicesHeading")}
+          </motion.h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {services.map((service, i) => {
             const Icon = service.icon;
             return (
@@ -104,6 +105,7 @@ export const Production = () => {
               </motion.div>
             );
           })}
+        </div>
         </div>
       </section>
     </div>

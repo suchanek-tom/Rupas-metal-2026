@@ -81,7 +81,7 @@ export const Equipment = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm"
+          className="mx-auto max-w-6xl overflow-x-auto rounded-xl border border-gray-200 shadow-sm"
         >
           <table className="w-full text-sm md:text-base text-left border-collapse">
             <thead>

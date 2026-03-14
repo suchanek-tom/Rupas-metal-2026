@@ -63,17 +63,18 @@ export const References = () => {
       </section>
 
       <section className="container mx-auto px-6 py-16 md:py-24">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
-        >
-          {t("references.whatWeDeliver")}
-        </motion.h2>
+        <div className="mx-auto max-w-7xl">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
+          >
+            {t("references.whatWeDeliver")}
+          </motion.h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {productions.map(({ icon: Icon, labelKey }, i) => (
             <motion.div
               key={labelKey}
@@ -91,21 +92,23 @@ export const References = () => {
             </motion.div>
           ))}
         </div>
+        </div>
       </section>
 
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="container mx-auto px-6">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
-          >
-            {t("references.countriesTitle")}
-          </motion.h2>
+          <div className="mx-auto max-w-7xl">
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
+            >
+              {t("references.countriesTitle")}
+            </motion.h2>
 
-          <motion.div
+            <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -118,7 +121,8 @@ export const References = () => {
               className="h-80 w-full object-contain bg-white p-4 sm:h-136 md:h-168"
               loading="lazy"
             />
-          </motion.div>
+            </motion.div>
+          </div>
         </div>
       </section>
     </div>

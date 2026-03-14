@@ -17,7 +17,7 @@ export const Certifications = () => {
   };
 
   return (
-    <div className="container mx-auto px-6 py-12">
+    <div className="min-h-screen bg-white">
       <SEO
         title={t("seo.certifications.title")}
         description={description}
@@ -26,12 +26,17 @@ export const Certifications = () => {
         image={DEFAULT_SEO_IMAGE}
         structuredData={structuredData}
       />
-      <h2 className="text-3xl font-bold mb-6">{t("certifications.title")}</h2>
-      <p className="text-lg text-gray-500">
-        {t("certifications.description")}
-      </p>
-
-      <CertificatesList />
+      <section className="container mx-auto px-6 py-12 md:py-16">
+        <div className="mx-auto max-w-4xl space-y-8">
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("certifications.title")}</h2>
+            <p className="text-lg text-gray-600">
+              {t("certifications.description")}
+            </p>
+          </div>
+          <CertificatesList />
+        </div>
+      </section>
     </div>
   );
 };
