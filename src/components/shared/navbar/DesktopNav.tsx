@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ExternalLink } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { navLinks } from "../../../constants/navigation";
 import { languages } from "../../../constants/languages";
+import { Button } from "../../ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -19,7 +20,7 @@ export const DesktopNav = () => {
   };
 
   return (
-    <div className="hidden lg:flex items-center gap-8">
+    <div className="hidden lg:flex items-center gap-4">
       <ul className="flex items-center gap-6">
         {navLinks.map((link) => (
           <li key={link.to}>
@@ -36,6 +37,22 @@ export const DesktopNav = () => {
           </li>
         ))}
       </ul>
+
+      <a
+        href="https://www.contranet-we.cz/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hidden lg:inline-block"
+      >
+        <Button
+          variant="outline"
+          size="sm"
+          className="gap-2 text-black border-gray-300 hover:bg-brand hover:cursor-pointer hover:text-white hover:border-brand transition-all"
+        >
+          {t("nav.contranet")}
+          <ExternalLink className="w-4 h-4" />
+        </Button>
+      </a>
 
       <DropdownMenu>
         <DropdownMenuTrigger className="flex items-center gap-2 text-2xl text-black hover:text-brand transition-colors font-medium outline-none">

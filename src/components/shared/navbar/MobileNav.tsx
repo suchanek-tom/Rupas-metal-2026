@@ -1,8 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ExternalLink } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "../LanguageSwitcher";
+import { Button } from "../../ui/button";
 import { navLinks } from "../../../constants/navigation";
 
 interface MobileNavProps {
@@ -81,8 +82,25 @@ export const MobileNav = ({ isMenuOpen, onToggleMenu, onCloseMenu }: MobileNavPr
                     ))}
                   </ul>
 
-                  <div className="mt-8 pt-8 border-t border-gray-200">
-                    <LanguageSwitcher onLanguageChange={onCloseMenu} />
+                  <div className="mt-6 pt-6 border-t border-gray-200 space-y-4">
+                    <a
+                      href="https://www.contranet-we.cz/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={onCloseMenu}
+                    >
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="w-full gap-2 text-black border-gray-300 hover:bg-brand hover:text-white hover:border-brand transition-all"
+                      >
+                        {t("nav.contranet")}
+                        <ExternalLink className="w-4 h-4" />
+                      </Button>
+                    </a>
+                    <div className="pt-2">
+                      <LanguageSwitcher onLanguageChange={onCloseMenu} />
+                    </div>
                   </div>
                 </nav>
               </div>
