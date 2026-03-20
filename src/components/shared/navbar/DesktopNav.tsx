@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { ChevronDown, ExternalLink } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { navLinks } from "../../../constants/navigation";
 import { languages } from "../../../constants/languages";
@@ -42,7 +42,7 @@ export const DesktopNav = () => {
         href="https://www.contranet-we.cz/"
         target="_blank"
         rel="noopener noreferrer"
-        className="hidden lg:inline-block"
+        className="hidden lg:inline-block group"
       >
         <Button
           variant="outline"
@@ -50,7 +50,16 @@ export const DesktopNav = () => {
           className="gap-2 text-black border-gray-300 hover:bg-brand hover:cursor-pointer hover:text-white hover:border-brand transition-all"
         >
           {t("nav.contranet")}
-          <ExternalLink className="w-4 h-4" />
+          <img 
+            src="images/contra-net-transparent-black.png" 
+            alt="ContraNet Logo" 
+            className="h-6 block group-hover:hidden" 
+          />
+          <img 
+            src="images/contra-net-transparent.png" 
+            alt="ContraNet Logo Hover" 
+            className="h-6 hidden group-hover:block" 
+          />
         </Button>
       </a>
 

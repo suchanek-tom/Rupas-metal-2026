@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { Menu, X, ExternalLink } from "lucide-react";
+import { Menu, X} from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "../LanguageSwitcher";
@@ -95,7 +95,7 @@ export const MobileNav = ({ isMenuOpen, onToggleMenu, onCloseMenu }: MobileNavPr
                         className="w-full gap-2 text-black border-gray-300 hover:bg-brand hover:text-white hover:border-brand transition-all"
                       >
                         {t("nav.contranet")}
-                        <ExternalLink className="w-4 h-4" />
+                        <img src="images/contra-net-transparent-black.png" alt="ContraNet Logo" className="h-6" />
                       </Button>
                     </a>
                     <div className="pt-2">
