@@ -4,7 +4,6 @@ import { SEO } from "@/components/shared/SEO";
 import { motion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/captions.css";
 import { galleryImages } from "@/constants/gallery";
 import { GalleryGrid } from "@/components/sections/Gallery";
@@ -76,7 +75,6 @@ export const Gallery = () => {
         index={lightboxIndex}
         close={() => setLightboxIndex(-1)}
         slides={slides}
-        plugins={[Captions]}
       />
     </div>
   );
